@@ -1,0 +1,8 @@
+# VHDL simulation files
+*.vhd~
+*.vho
+*.wdb
+*.cf
+# C build files
+*.o
+*.out
