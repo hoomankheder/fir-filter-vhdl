@@ -19,7 +19,7 @@ Course Project at Politecnico di Torino. Implemented a 10-tap low-pass FIR filte
 1. Clone the repo: `git clone https://github.com/hoomankheder/fir-filter-vhdl.git`
 2. Install tools: VHDL simulator (e.g., ModelSim) and C compiler (e.g., GCC).
 3. Simulate VHDL: Open `code/filter.vhd` in ModelSim, run `code/tb_fir.vhd` testbench.
-4. Run C code: `gcc code/fixed_point.c -o fir && ./fir data/input.dat` (use sample input).
+4. Run C code: `gcc code/fixed_point.c -o fir && ./fir data/sample.txt` (use sample input).
 5. View results: Check `results/thd_plot.png` for THD output.
 
 ## Files
